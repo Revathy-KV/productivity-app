@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-add {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #00c9a7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #4a47a3;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.Pending {
+    border-left: 6px solid orange;
+}
+
+.Completed {
+    border-left: 6px solid green;
+}
+
+.status-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    background: #ff9f43;
+}
+
+.delete-btn {
+    padding: 6px 12px;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.form-container {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}

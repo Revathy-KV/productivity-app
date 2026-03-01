@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="form-container">
+    <form method="POST">
+        <label>Task Title</label>
+        <input type="text" name="title" required>
+
+        <label>Priority</label>
+        <select name="priority">
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+
+        <button type="submit">Add Task</button>
+    </form>
+</div>
+
+{% endblock %}

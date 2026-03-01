@@ -1,9 +1,5 @@
 # productivity-app
 A colorful Productivity Tracker web application built using Flask and MongoDB that allows users to add, update, delete, and manage daily tasks efficiently.
-
----
-# 🚀 Productivity Tracker Web App
-
 A colorful and modern task management web application built using Flask, MongoDB, Python, HTML, and CSS.
 
 ---
